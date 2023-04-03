@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 @Component({
     selector: "pa-photo",
@@ -6,8 +6,8 @@ import { Component } from "@angular/core";
 })
 
 export class PhotoComponent {
-    description = "Galáxias";
-    url="https://services.meteored.com/img/article/telescopio-webb-capta-con-muy-alta-resolucion-a-los-pilares-de-la-creacion-1667393426739_768.png"
+    @Input()description = "";
+    @Input()url="";
   
 }
 
