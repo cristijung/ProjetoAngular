@@ -13,3 +13,60 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     max-width: 40%;
     border-radius: 4px;
 }
+
+.btn {
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 5px;
+}
+
+/*SUCCESS*/
+.btn-success {
+    background-color: var(--cor-primaria-success);
+    outline: none;
+    color: var(--cor-secundaria-success)
+}
+
+.btn-success:hover {
+    background-color: var(--cor-hover-success);
+}
+
+.btn-success:active {
+    color:var(--cor-primaria-success);
+    background-color: var(--cor-secundaria-success);
+}
+
+/*INFO*/
+.btn-info {
+    background-color: var(--cor-primaria-info);
+    outline: none;
+    color: var(--cor-secundaria-info)
+}
+
+.btn-info:hover {
+    background-color: var(--cor-hover-info);
+}
+
+.btn-info:active {
+    color:var(--cor-primaria-info);
+    background-color: var(--cor-secundaria-info);
+}
+
+/*DANGER*/
+.btn-danger {
+    background-color: var(--cor-primaria-danger);
+    outline: none;
+    color: var(--cor-secundaria-danger)
+}
+
+.btn-succdangeress:hover {
+    background-color: var(--cor-hover-danger);
+}
+
+.btn-danger:active {
+    color:var(--cor-primaria-danger);
+    background-color: var(--cor-secundaria-danger);
+}

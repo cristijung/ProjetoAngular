@@ -6,6 +6,7 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { PhotosModule } from './photos/photos.modules';
 import { ArtigosComponent } from './artigos/artigos.component';
 import { HomeComponent } from './home/home.component';
+import { ContatoComponent } from './contato/contato.component';
 
 
 @NgModule({
@@ -13,6 +14,7 @@ import { HomeComponent } from './home/home.component';
     AppComponent,
     ArtigosComponent,
     HomeComponent,
+    ContatoComponent,
      
   ],
   imports: [
